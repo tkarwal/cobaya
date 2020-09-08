@@ -490,6 +490,7 @@ class polychord(Sampler):
         except VersionCheckError as e:
             log.error(str(e))
             return False
+
     @classmethod
     def install(cls, path=None, force=False, code=False, data=False,
                 no_progress_bars=False):
